@@ -1,4 +1,37 @@
+section {
+    padding: 125px 15px 10px 15px;
+
+}
+
+
 .navbar {
     background-color: #fff;
     box-shadow: 0 0 0 1.5px rgba(0, 0, 0, 0.2);
+}
+
+.home img {
+    height: 40%;
+    width: 30%;
+    transform: scale(2.5);
+    margin-top: 50px;
+}
+
+.home h1 {
+    font-size: 3.5rem;
+}
+
+.home h2 {
+    font-size: 2rem;
+}
+
+.btn.button {
+    padding: 5px;
+    border: 3px solid #000;
+    border-radius: 25px;
+    width: 130px;
+}
+
+.btn.button:hover {
+    background-color: #000;
+    color: #fff;
 }
